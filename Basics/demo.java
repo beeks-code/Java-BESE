@@ -1,8 +1,8 @@
 package Basics;
 public class demo{
     public static void main(String args[]) {
-    System.out.println(args[0]); // Bikram
-    System.out.println(args[1]); // 20
+    System.out.println(args[0]); 
+    System.out.println(args[1]);
 }
 
 
