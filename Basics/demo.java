@@ -7,7 +7,8 @@ public class demo{
 
 
 }
-/* While running class file we pass two strings which will be stored in args[] array
+/* Strings args[] is array of class string
+While running java file we pass two strings which will be stored in args[] array
 and print both values in array
 
 eg:
