@@ -7,10 +7,10 @@ class box{
         width=20;
         length=40;
     }
-    box(int h,int w, int l){
-        length=l;
-        height=h;
-        width=w;
+    box(int height,int width, int length){
+        this.length=length;
+        this.height=height;
+        this.width=width;
     }
 
     int volume(){
