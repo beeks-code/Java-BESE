@@ -3,7 +3,7 @@ class Box {
     double width;
     double height;
     double depth;
-
+// Taking object as arguument
     Box(Box ob) {
         width = ob.width;
         height = ob.height;
@@ -41,15 +41,15 @@ class OverloadingConstructor {
         double vol;
 
         vol = mybox1.volume();
-        System.out.println("Volume of mybox1 is " + vol);
+        System.out.println("volume of mybox1 is" + vol);
 
         vol = mybox2.volume();
-        System.out.println("Volume of mybox2 is " + vol);
+        System.out.println("volume of mybox2 is" + vol);
 
         vol = mycube.volume();
         System.out.println("Volume of cube is " + vol);
 
         vol = myclone.volume();
-        System.out.println("Volume of clone is " + vol);
+        System.out.println("volume of clone  is " + vol);
     }
 }
