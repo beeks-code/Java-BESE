@@ -1,0 +1,10 @@
+
+
+
+
+
+Data sending format from client to server:
+
+STUDENT_VIEW|12
+ADMIN_ADD|5|Ram|1,3,4
+ADMIN_DELETE|7
