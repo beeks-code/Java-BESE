@@ -1,16 +1,16 @@
-=============================================
-  Library Management System
+
+  *** Library Management System
   Simple Java Client-Server + MySQL + Swing
-=============================================
+
 
 FILES:
   Server.java   - The server (handles all database logic)
   Client.java   - The GUI client (Swing)
   library.sql   - Database setup (10 fixed books)
 
---------------------------------------------
+
 SETUP (do once)
---------------------------------------------
+
 
 1. Install MySQL and open MySQL Workbench or terminal.
 
@@ -49,9 +49,7 @@ Terminal 1 - Start the server:
 Terminal 2 - Start the client:
    java Client
 
---------------------------------------------
 HOW TO USE
---------------------------------------------
 
 Home Screen:
   Click "Student" or "Admin"
@@ -87,12 +85,10 @@ Admin Portal:
   View All Books:
     - Shows all 10 library books and their availability
 
---------------------------------------------
 THE 10 BOOKS IN THE LIBRARY
---------------------------------------------
+
 
 ID  | Book Name
-----+---------------------------
 1   | Java Programming
 2   | Data Structures
 3   | Operating Systems
